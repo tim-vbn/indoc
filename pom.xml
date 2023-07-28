@@ -1,0 +1,19 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.indoc.tycho</groupId>
+	<artifactId>com.indoc.tycho.root</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.indoc.tycho</groupId>
+		<artifactId>com.indoc.tycho.configuration</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>./releng/com.indoc.tycho.configuration</relativePath>
+	</parent>
+
+	<modules>
+		<module>bundles</module>
+		<module>releng</module>
+	</modules>
+</project>
